@@ -1,0 +1,38 @@
+﻿@inherits LayoutComponentBase
+
+
+<main class="relative h-screen overflow-hidden bg-gray-100 dark:bg-gray-800">
+	<div class="flex items-start justify-between">
+		<div class="relative hidden h-screen shadow-lg lg:block w-80">
+			<div class="h-full bg-white dark:bg-gray-700">
+				<div class="flex items-center justify-start pt-6 ml-8">
+					<p class="text-xl font-bold dark:text-white">
+						工具箱
+					</p>
+				</div>
+				<nav class="mt-6">
+						<Menu Mode="MenuMode.Inline"
+					          OpenKeys=this.openKeys
+					          OnOpenChange=this.onOpenChange
+					          Style="">
+							<SubMenu Key="Leaf" Title="叶片指数">
+							    <MenuItem Key="1" RouterLink="/Leaf/"  RouterMatch="NavLinkMatch.All">固有频率</MenuItem>
+							    <MenuItem Key="2" RouterLink="/Leaf/"  RouterMatch="NavLinkMatch.All">呼啸因子</MenuItem>
+							    <MenuItem Key="3" RouterLink="/Leaf/"  RouterMatch="NavLinkMatch.All">结冰指数</MenuItem>
+							    <MenuItem Key="4" RouterLink="/Leaf/"  RouterMatch="NavLinkMatch.All">不平衡指数</MenuItem>
+								<MenuItem Key="5" RouterLink="/Leaf/"  RouterMatch="NavLinkMatch.All">叶尖损伤指数</MenuItem>
+								<MenuItem Key="6" RouterLink="/Leaf/"  RouterMatch="NavLinkMatch.All">结构损伤指数</MenuItem>
+							</SubMenu>
+						</Menu>
+				</nav>
+			</div>
+		</div>
+		<div class="flex flex-col w-full md:space-y-4">
+			<header class="z-40 flex items-center justify-between w-full h-16">
+			</header>
+			<div class="h-screen px-4 pb-24 overflow-auto md:px-6">
+				@Body
+			</div>
+		</div>
+	</div>
+</main>

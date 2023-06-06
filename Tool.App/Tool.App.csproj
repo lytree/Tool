@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net7.0-windows</TargetFramework>
+		<Nullable>enable</Nullable>
+		<UseWPF>true</UseWPF>
+		<RootNamespace>Tool.App</RootNamespace>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+	<ItemGroup>
+	  <Compile Remove="Pages\Leaf\FreezeIndex.razor.cs" />
+	  <Compile Remove="Pages\Leaf\HowlFactor.razor.cs" />
+	  <Compile Remove="Pages\Leaf\NaturalFreqsAmp.razor.cs" />
+	  <Compile Remove="Pages\Leaf\StructDamage.razor.cs" />
+	  <Compile Remove="Pages\Leaf\TipDamage.razor.cs" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Content Include="Pages\Leaf\FreezeIndex.razor.cs" />
+	  <Content Include="Pages\Leaf\HowlFactor.razor.cs" />
+	  <Content Include="Pages\Leaf\NaturalFreqsAmp.razor.cs" />
+	  <Content Include="Pages\Leaf\StructDamage.razor.cs" />
+	  <Content Include="Pages\Leaf\TipDamage.razor.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="AntDesign" Version="0.15.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Components.WebView.Wpf" Version="7.0.86" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
+
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\Tool.Python\Python.Init\Python.Init.csproj" />
+	</ItemGroup>
+
+</Project>

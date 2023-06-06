@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>3.11.2</Version>
+    <Authors>Meinrad Recheis and Python Software Foundation</Authors>
+    <Description>Python.Included is an automatic deployment mechanism for .NET packages which depend on the embedded Python distribution. This allows libraries depending on Python and/or Python packages to be deployed via Nuget without having to worry about any local Python installations.</Description>
+    <PackageLicenseUrl>
+    </PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/henon/Python.Included</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/henon/Python.Included</RepositoryUrl>
+    <RepositoryType>github</RepositoryType>
+    <PackageTags>Python, pythonnet, embedded, interop, deployment</PackageTags>
+    <PackageIconUrl>
+    </PackageIconUrl>
+    <AssemblyVersion>3.10.0.0</AssemblyVersion>
+    <FileVersion>3.10.0.0</FileVersion>
+    <Copyright>Copyright 2019-2022 Meinrad Recheis and Python Software Foundation</Copyright>
+    <PackageIcon>python_included_nuget.png</PackageIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Resources\python-3.11.0-embed-amd64.zip" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\python-3.11.0-embed-amd64.zip" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\python_included_nuget.png">
+      <Pack>True</Pack>
+      <PackagePath>
+      </PackagePath>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="pythonnet" Version="3.0.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Python.Deployment\Python.Deployment.csproj" />
+  </ItemGroup>
+</Project>
