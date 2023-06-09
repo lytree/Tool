@@ -10,9 +10,9 @@ namespace Tool.App.Shared;
 
 public partial class MainLayout
 {
-	string[] rootSubmenuKeys = { "sub1", "sub2", "sub4" };
+	string[] rootSubmenuKeys = { "1", "2", " 3", "4", "5", "6" };
 
-	string[] openKeys = { "sub1" };
+	string[] openKeys = {  };
 
 	void onOpenChange(string[] openKeys)
 	{

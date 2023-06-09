@@ -3,8 +3,10 @@
 /* layer: default */
 .relative{position:relative;}
 .z-40{z-index:40;}
+.ml-6{margin-left:1.5rem;}
 .ml-8{margin-left:2rem;}
-.mt-6{margin-top:1.5rem;}
+.mt-4{margin-top:1rem;}
+.block{display:block;}
 .hidden{display:none;}
 .h-16{height:4rem;}
 .h-full{height:100%;}
@@ -20,16 +22,21 @@
 .justify-between{justify-content:space-between;}
 .overflow-auto{overflow:auto;}
 .overflow-hidden{overflow:hidden;}
+.rounded-full{border-radius:9999px;}
 .bg-gray-100{--un-bg-opacity:1;background-color:rgba(243,244,246,var(--un-bg-opacity));}
 .bg-white{--un-bg-opacity:1;background-color:rgba(255,255,255,var(--un-bg-opacity));}
 .dark .dark\:bg-gray-700{--un-bg-opacity:1;background-color:rgba(55,65,81,var(--un-bg-opacity));}
 .dark .dark\:bg-gray-800{--un-bg-opacity:1;background-color:rgba(31,41,55,var(--un-bg-opacity));}
+.p-2{padding:0.5rem;}
 .px-4{padding-left:1rem;padding-right:1rem;}
 .pb-24{padding-bottom:6rem;}
 .pt-6{padding-top:1.5rem;}
 .text-xl{font-size:1.25rem;line-height:1.75rem;}
 .font-bold{font-weight:700;}
 .dark .dark\:text-white{--un-text-opacity:1;color:rgba(255,255,255,var(--un-text-opacity));}
+.text-gray-400{--un-text-opacity:1;color:rgba(156,163,175,var(--un-text-opacity));}
+.text-gray-500{--un-text-opacity:1;color:rgba(107,114,128,var(--un-text-opacity));}
+.shadow{--un-shadow:var(--un-shadow-inset) 0 1px 3px 0 var(--un-shadow-color, rgba(0,0,0,0.1)),var(--un-shadow-inset) 0 1px 2px -1px var(--un-shadow-color, rgba(0,0,0,0.1));box-shadow:var(--un-ring-offset-shadow), var(--un-ring-shadow), var(--un-shadow);}
 .shadow-lg{--un-shadow:var(--un-shadow-inset) 0 10px 15px -3px var(--un-shadow-color, rgba(0,0,0,0.1)),var(--un-shadow-inset) 0 4px 6px -4px var(--un-shadow-color, rgba(0,0,0,0.1));box-shadow:var(--un-ring-offset-shadow), var(--un-ring-shadow), var(--un-shadow);}
 @media (min-width: 768px){
 .md\:space-y-4>:not([hidden])~:not([hidden]){--un-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--un-space-y-reverse)));margin-bottom:calc(1rem * var(--un-space-y-reverse));}
@@ -37,4 +44,5 @@
 }
 @media (min-width: 1024px){
 .lg\:block{display:block;}
+.lg\:hidden{display:none;}
 }

@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Tool.App.Pages;
-
-public partial class DeviationFactor
+namespace Data.Repository
 {
-
-
+	public class DataRepository
+	{
+	}
 }

@@ -10,25 +10,30 @@
 						工具箱
 					</p>
 				</div>
-				<nav class="mt-6">
-						<Menu Mode="MenuMode.Inline"
-					          OpenKeys=this.openKeys
-					          OnOpenChange=this.onOpenChange
-					          Style="">
-							<SubMenu Key="Leaf" Title="叶片指数">
-							    <MenuItem Key="1" RouterLink="/Leaf/"  RouterMatch="NavLinkMatch.All">固有频率</MenuItem>
-							    <MenuItem Key="2" RouterLink="/Leaf/"  RouterMatch="NavLinkMatch.All">呼啸因子</MenuItem>
-							    <MenuItem Key="3" RouterLink="/Leaf/"  RouterMatch="NavLinkMatch.All">结冰指数</MenuItem>
-							    <MenuItem Key="4" RouterLink="/Leaf/"  RouterMatch="NavLinkMatch.All">不平衡指数</MenuItem>
-								<MenuItem Key="5" RouterLink="/Leaf/"  RouterMatch="NavLinkMatch.All">叶尖损伤指数</MenuItem>
-								<MenuItem Key="6" RouterLink="/Leaf/"  RouterMatch="NavLinkMatch.All">结构损伤指数</MenuItem>
-							</SubMenu>
-						</Menu>
+				<nav class="mt-4">
+					<Menu Mode="MenuMode.Inline">
+						<SubMenu Key="Leaf" Title="叶片指数">
+							<MenuItem Key="1" RouterLink="/Leaf/DeviationFactor" RouterMatch="NavLinkMatch.All">固有频率</MenuItem>
+							<MenuItem Key="2" RouterLink="/Leaf/FreezeIndex" RouterMatch="NavLinkMatch.All">呼啸因子</MenuItem>
+							<MenuItem Key="3" RouterLink="/Leaf/HowlFactor" RouterMatch="NavLinkMatch.All">结冰指数</MenuItem>
+							<MenuItem Key="4" RouterLink="/Leaf/NaturalFreqsAmp" RouterMatch="NavLinkMatch.All">不平衡指数</MenuItem>
+							<MenuItem Key="5" RouterLink="/Leaf/StructDamage" RouterMatch="NavLinkMatch.All">叶尖损伤指数</MenuItem>
+							<MenuItem Key="6" RouterLink="/Leaf/TipDamage" RouterMatch="NavLinkMatch.All">结构损伤指数</MenuItem>
+						</SubMenu>
+					</Menu>
 				</nav>
 			</div>
 		</div>
 		<div class="flex flex-col w-full md:space-y-4">
 			<header class="z-40 flex items-center justify-between w-full h-16">
+				<div class="block ml-6 lg:hidden">
+					<button class="flex items-center p-2 text-gray-500 bg-white rounded-full shadow text-md">
+						<svg width="20" height="20" class="text-gray-400" fill="currentColor" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+							<path d="M1664 1344v128q0 26-19 45t-45 19h-1408q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h1408q26 0 45 19t19 45zm0-512v128q0 26-19 45t-45 19h-1408q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h1408q26 0 45 19t19 45zm0-512v128q0 26-19 45t-45 19h-1408q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h1408q26 0 45 19t19 45z">
+							</path>
+						</svg>
+					</button>
+				</div>
 			</header>
 			<div class="h-screen px-4 pb-24 overflow-auto md:px-6">
 				@Body

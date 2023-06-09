@@ -13,7 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using Tool.App.Data;
+
 
 namespace Tool.App
 {
@@ -28,7 +28,6 @@ namespace Tool.App
 			serviceCollection.AddWpfBlazorWebView();
 			serviceCollection.AddBlazorWebViewDeveloperTools();
 			serviceCollection.AddAntDesign();
-			serviceCollection.AddSingleton<WeatherForecastService>();
 			Resources.Add("services", serviceCollection.BuildServiceProvider());
 			InitializeComponent();
 		}
