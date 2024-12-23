@@ -1,0 +1,17 @@
+<Application
+  x:Class="Appliaction.UI.App"
+  xmlns="https://github.com/avaloniaui"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:helpers="clr-namespace:Irihi.Avalonia.Shared.Helpers;assembly=Irihi.Avalonia.Shared"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  xmlns:semi="https://irihi.tech/semi"
+  xmlns:u="https://irihi.tech/ursa"
+  mc:Ignorable="d">
+  <Application.Styles>
+    <StyleInclude Source="avares://Semi.Avalonia.ColorPicker/Index.axaml" />
+    <StyleInclude Source="avares://Semi.Avalonia.DataGrid/Index.axaml" />
+    <StyleInclude Source="avares://Semi.Avalonia.TreeDataGrid/Index.axaml" />
+    <semi:SemiTheme Locale="zh-CN" />
+  </Application.Styles>
+</Application>
