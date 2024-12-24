@@ -5,7 +5,7 @@ using Ursa.Controls;
 
 namespace Appliaction.UI.Views;
 
-public partial class MainView : UrsaView
+public partial class MainView : UserControl
 {
     public MainView()
     {
