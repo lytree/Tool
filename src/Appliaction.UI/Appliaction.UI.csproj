@@ -23,6 +23,8 @@
   <ItemGroup>
     <Folder Include="Converters/" />
     <Folder Include="Pages/" />
-    <Folder Include="Assets/" />
+  </ItemGroup>
+  <ItemGroup>
+    <AvaloniaResource Include="Assets\**" />
   </ItemGroup>
 </Project>
