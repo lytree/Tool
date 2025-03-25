@@ -10,6 +10,12 @@ public class MenuViewModel : ViewModelBase
     public MenuViewModel()
     {
         MenuItems = new ObservableCollection<MenuItemViewModel>()
-        { };
+        {
+            new() { MenuHeader = "Introduction", Key = MenuKeys.MenuKeyIntroduction, IsSeparator = false },
+        };
     }
+}
+public static class MenuKeys
+{
+    public const string MenuKeyIntroduction = "Introduction";
 }

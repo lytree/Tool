@@ -3,7 +3,7 @@ using Avalonia;
 using Avalonia.Dialogs;
 using Avalonia.Media;
 using System;
-
+using Avalonia.WebView.Desktop;
 namespace Appliaction.Start;
 
 class Program
@@ -30,6 +30,6 @@ class Program
         => AppBuilder.Configure<App>()
             .UseManagedSystemDialogs()
             .UsePlatformDetect()
-            .With(new Win32PlatformOptions())
+            .With(new Win32PlatformOptions()).UseDesktopWebView(null, true)
             .LogToTrace();
 }

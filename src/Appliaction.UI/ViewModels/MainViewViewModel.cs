@@ -31,7 +31,7 @@ public partial class MainViewViewModel : ViewModelBase
     {
         Content = s switch
         {
-            // MenuKeys.MenuKeyIntroduction => new IntroductionDemoViewModel(),
+            MenuKeys.MenuKeyIntroduction => new IntroductionViewModel(),
             // MenuKeys.MenuKeyAutoCompleteBox => new AutoCompleteBoxDemoViewModel(),
             // MenuKeys.MenuKeyAvatar => new AvatarDemoViewModel(),
             // MenuKeys.MenuKeyBadge => new BadgeDemoViewModel(),
