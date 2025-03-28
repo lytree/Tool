@@ -5,18 +5,18 @@
 		<Nullable>enable</Nullable>
 	</PropertyGroup>
 	<ItemGroup>
-		<PackageReference Include="Avalonia" Version="11.2.3" />
-		<PackageReference Include="Avalonia.Desktop" Version="11.2.3" />
+		<PackageReference Include="Avalonia" Version="11.2.5" />
+		<PackageReference Include="Avalonia.Desktop" Version="11.2.5" />
 		<!-- <PackageReference Include="Avalonia.Themes.Fluent" Version="11.2.0" /> -->
-		<PackageReference Include="Avalonia.Fonts.Inter" Version="11.2.3" />
+		<PackageReference Include="Avalonia.Fonts.Inter" Version="11.2.5" />
 		<!--Condition below is needed to remove Avalonia.Diagnostics package from build output in Release configuration.-->
-		<PackageReference Condition="'$(Configuration)' == 'Debug'" Include="Avalonia.Diagnostics" Version="11.2.3" />
+		<PackageReference Condition="'$(Configuration)' == 'Debug'" Include="Avalonia.Diagnostics" Version="11.2.5" />
 		<PackageReference Include="CommunityToolkit.Mvvm" Version="8.3.2" />
 		<PackageReference Include="Irihi.Ursa" Version="1.6.2" />
 		<PackageReference Include="Irihi.Ursa.Themes.Semi" Version="1.6.2" />
-		<PackageReference Include="Semi.Avalonia" Version="11.2.1.2" />
-		<PackageReference Include="Semi.Avalonia.ColorPicker" Version="11.2.1.2" />
-		<PackageReference Include="Semi.Avalonia.DataGrid" Version="11.2.1.2" />
+		<PackageReference Include="Semi.Avalonia" Version="11.2.1.5" />
+		<PackageReference Include="Semi.Avalonia.ColorPicker" Version="11.2.1.5" />
+		<PackageReference Include="Semi.Avalonia.DataGrid" Version="11.2.1.5" />
 		<PackageReference Include="Semi.Avalonia.TreeDataGrid" Version="11.0.10.1" />
 		<PackageReference Include="WebkitGtkSharp" Version="3.24.24.95" PrivateAssets="all"/>
 		<PackageReference Include="GtkSharp" Version="3.24.24.95" PrivateAssets="all"/>

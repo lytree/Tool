@@ -3,7 +3,7 @@ using Avalonia;
 using Avalonia.Dialogs;
 using Avalonia.Media;
 using System;
-using Avalonia.WebView.Desktop;
+using Avalonia.WebViews.Desktop;
 namespace Appliaction.Start;
 
 class Program

@@ -6,15 +6,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{3A8DF596-E81
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{827E0CD3-B72D-47B6-A68D-7590B98EB39B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avalonia.WebView.Linux", "lib\Avalonia.WebView.Linux\Avalonia.WebView.Linux.csproj", "{9FFB03AC-063C-5CA1-6165-21423892DFE9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avalonia.WebView.Linux", "lib\Avalonia.WebViews.Linux\Avalonia.WebView.Linux.csproj", "{9FFB03AC-063C-5CA1-6165-21423892DFE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avalonia.WebView", "lib\Avalonia.WebView\Avalonia.WebView.csproj", "{7A39E3D0-0097-D0AE-9820-F034A8F2959A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avalonia.WebView", "lib\Avalonia.WebViews\Avalonia.WebView.csproj", "{7A39E3D0-0097-D0AE-9820-F034A8F2959A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avalonia.WebView.Windows", "lib\Avalonia.WebView.Windows\Avalonia.WebView.Windows.csproj", "{79BA67FA-D921-8A57-6677-A726D38F77D1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avalonia.WebView.Windows", "lib\Avalonia.WebViews.Windows\Avalonia.WebView.Windows.csproj", "{79BA67FA-D921-8A57-6677-A726D38F77D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avalonia.WebView.Desktop", "lib\Avalonia.WebView.Desktop\Avalonia.WebView.Desktop.csproj", "{487B62A1-47EE-12B9-1899-63BC39937354}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avalonia.WebView.Desktop", "lib\Avalonia.WebViews.Desktop\Avalonia.WebView.Desktop.csproj", "{487B62A1-47EE-12B9-1899-63BC39937354}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avalonia.WebView.Core", "lib\Avalonia.WebView.Core\Avalonia.WebView.Core.csproj", "{FDE69A70-3260-955F-7953-1FBF8A9C4002}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avalonia.WebView.Core", "lib\Avalonia.WebViews.Core\Avalonia.WebView.Core.csproj", "{FDE69A70-3260-955F-7953-1FBF8A9C4002}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Appliaction.Start", "src\Appliaction.Start\Appliaction.Start.csproj", "{A9F795DB-EF0A-7FF3-BE4B-F6A9E5EAF1C4}"
 EndProject
