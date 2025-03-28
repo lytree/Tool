@@ -28,7 +28,7 @@
 		<AvaloniaResource Include="Assets\**" />
 	</ItemGroup>
 	<ItemGroup>
-		<ProjectReference Include="../../lib/Avalonia.WebView/Avalonia.WebView.csproj" />
+		<ProjectReference Include="../../lib/Avalonia.WebViews/Avalonia.WebView.csproj" />
 	</ItemGroup>
 	<ItemGroup>
 		<Compile Update="Pages/Introduction.axaml.cs">

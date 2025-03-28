@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../../lib/Avalonia.WebView.Desktop/Avalonia.WebView.Desktop.csproj" />
+    <ProjectReference Include="../../lib/Avalonia.WebViews.Desktop/Avalonia.WebView.Desktop.csproj" />
     <ProjectReference Include="../Appliaction.UI/Appliaction.UI.csproj" />
   </ItemGroup>
 </Project>
